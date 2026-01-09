@@ -1,10 +1,10 @@
-# Privacy Policy for Simple Tab Manager
+# Privacy Policy for Tab Manager
 
 **Last Updated:** January 9, 2025
 
 ## Overview
 
-Simple Tab Manager ("the Extension") is committed to protecting your privacy. This privacy policy explains how the Extension handles data.
+Tab Manager ("the Extension") is committed to protecting your privacy. This privacy policy explains how the Extension handles data.
 
 ## Data Collection
 

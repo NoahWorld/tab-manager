@@ -1,4 +1,4 @@
-# Simple Tab Manager
+# Tab Manager
 
 [English](#english) | [中文](#中文)
 

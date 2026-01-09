@@ -130,6 +130,27 @@ const translations = {
     enterSessionName: 'Por favor insira um nome de sessão',
     selectAtLeastOne: 'Por favor selecione pelo menos uma aba'
   },
+  ko: {
+    appName: '탭 관리자',
+    currentTabs: '현재 탭',
+    savedSessions: '저장된 세션',
+    selected: '선택됨',
+    selectAll: '모두 선택',
+    deselectAll: '선택 해제',
+    sessionNamePlaceholder: '세션 이름',
+    saveSelected: '선택 항목 저장',
+    saveAll: '모두 저장',
+    noSessions: '저장된 세션이 없습니다',
+    noSessionsHint: '탭을 저장하여 시작하세요',
+    restore: '복원',
+    delete: '삭제',
+    tabs: '탭',
+    savedSuccess: '{count}개의 탭을 "{name}"(으)로 저장했습니다',
+    restoredSuccess: '"{name}"에서 {count}개의 탭을 복원했습니다',
+    sessionDeleted: '세션이 삭제되었습니다',
+    enterSessionName: '세션 이름을 입력하세요',
+    selectAtLeastOne: '최소 하나의 탭을 선택하세요'
+  },
   ar: {
     appName: 'مدير علامات التبويب',
     currentTabs: 'علامات التبويب الحالية',
@@ -179,6 +200,7 @@ function detectBrowserLanguage() {
   if (lang.startsWith('zh-TW') || lang.startsWith('zh-HK')) return 'zh-TW';
   if (lang.startsWith('zh')) return 'zh-CN';
   if (lang.startsWith('ja')) return 'ja';
+  if (lang.startsWith('ko')) return 'ko';
   if (lang.startsWith('es')) return 'es';
   if (lang.startsWith('pt')) return 'pt';
   if (lang.startsWith('ar')) return 'ar';
